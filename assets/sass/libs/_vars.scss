@@ -33,17 +33,22 @@
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
+		test: lime,
+		bg:					black, //background: nav bar and transitions + more page
+		bg-alt:				darken(#312450, 5), //used in nav
 		fg:					rgba(255,255,255,0.55),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.35),
+		fg-black:		rgba(0,0,0,0.9),
+		fg-bold:			black, //h1
+		fg-bold-white:			white, //active nav bar
+		fg-light:			rgba(255,255,255,0.5),
 		border:				rgba(255,255,255,0.15),
+		border-white:				rgba(255,255,255,0.8),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
+		accent1:			#FFBE03, //main page + get in touch + more page nav bar
+		accent1-alt:		darken(#FFBE03, 10), //lighten?
+		accent2:			black, //projects
 		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		accent3:			#FFBE03, //tech stack
+		accent3-alt:		darken(#b74e91, 10),
+		accent4:			#FFF, // a and for gradient
 	);

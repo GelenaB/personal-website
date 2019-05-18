@@ -16,10 +16,10 @@
 			'border-color #{_duration(transition)} ease'
 		));
 		background-color: transparent;
-		border: solid 1px !important;
-		border-color: _palette(border) !important;
+		border: solid 2px !important;
+		border-color: _palette(border);
 		border-radius: 3em;
-		color: _palette(fg-bold) !important;
+		color: _palette(fg-bold);
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -69,6 +69,11 @@
 
 		&.large {
 			font-size: 0.8em;
+		}
+
+		&.white {
+			color: white;
+			border-color: white;
 		}
 
 		&.primary {

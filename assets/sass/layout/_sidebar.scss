@@ -83,7 +83,7 @@
 				&:before,
 				&:after {
 					border-radius: 0.2em;
-					bottom: 0;
+					bottom: 4px;
 					content: '';
 					height: 0.2em;
 					position: absolute;
@@ -92,11 +92,11 @@
 				}
 
 				&:before {
-					background: lighten(_palette(bg), 5);
+					background: lighten(_palette(bg), 50);
 				}
 
 				&:after {
-					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent4)})');
 					@include vendor('transition', 'max-width #{_duration(transition)} ease');
 					max-width: 0;
 				}
@@ -106,7 +106,7 @@
 				}
 
 				&.active {
-					color: _palette(fg-bold);
+					color: _palette(fg-bold-white);
 
 					&:after {
 						max-width: 100%;
