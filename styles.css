@@ -1,0 +1,176 @@
+body {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#header {
+  width: 90%;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: white;
+  align-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  height: 10vh;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px; */
+
+  
+}
+
+/* #header a {
+  text-decoration: none;
+  color: black;
+} */
+
+#header ul {
+  display: flex;
+  padding: 0;
+
+  width: 100%;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+
+.header-left {
+  width: 50%;
+  align-items: center;
+}
+
+.header-right {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+
+#intro {
+  width: 90%;
+  padding-top: 40px;
+  height: 85vh;
+  font-size: 1.5rem;
+}
+
+.project-div {
+  width: 90%;
+  padding-top: 10vh;
+}
+
+.project-content {
+  width: 50%;
+  padding: 0 5px 5px 5px;;
+}
+
+
+.project-left {
+  padding: 20px;
+  display: flex;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+}
+
+.project-image {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+text-decoration: none;
+background-color: #fff2ac;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+}
+
+.project-right {
+  width: 50%;
+
+}
+
+.project-content ul{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.project-content li{
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.project-content img{
+  padding-right: 5px;
+}
+
+.contact {
+  border: 1px solid burlywood;
+  width: 90%;
+}
+
+@media only screen and (max-width: 550px) {
+  body {
+
+    margin: 5px;
+  }
+
+  #header {
+    visibility: hidden;
+    display: none;
+  }
+
+
+  .project-left {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .project-content {
+    width: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+}
+/* @media only screen and (min-width: 1038px) {
+  html{
+    align-content: center;
+    align-items: center;
+  }
+  body {
+    background-color: lightgreen;
+    /* margin: 20px 150px 0 150px; */
+    width: 70%;
+  }
+} */
+

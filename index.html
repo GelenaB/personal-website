@@ -5,135 +5,167 @@
 	<title>Front-end developer | Gelena Barker</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<link rel="stylesheet" href="styles.css" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
 </head>
 
-<body class="is-preload">
+<div id="wrapper">
+	<section id="header">
 
-	<!-- Sidebar -->
-	<section id="sidebar">
+		<section class="header-left">
+			<li><b></b></li>
+		</section>
+		<section class="header-right">
+
+			<ul>
+				<li><a class="active" href="#intro">Welcome</a></li>
+				<li><a href="#one">Projects</a></li>
+				<li><a href="#two">Get in touch</a></li>
+			</ul>
+
+		</section>
+
+	</section>
+
+	<!-- 
+		view port
+		animate when in view on load
+		change divs around on mobile
+		update contact
+		add github link for each project
+		add icons for react etc
+		update descriptions
+		check footers eg GB 2019
+	-->
+
+
+	<section id="intro" class="wrapper style1 fullscreen fade-up">
 		<div class="inner">
-			<nav>
-				<ul>
-					<li><a href="#intro">Welcome</a></li>
-					<li><a href="#one">Projects</a></li>
-					<li><a href="#two">Tech Stack</a></li>
-					<li><a href="#three">Get in touch</a></li>
-				</ul>
-			</nav>
+			<h1>Hello, I'm Gelena.</h1>
+			<p>I'm a digital marketer turned front-end developer.</br>
+				Currently based in London.</p>
 		</div>
 	</section>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
 
-		<!-- Intro -->
-		<section id="intro" class="wrapper style1 fullscreen fade-up">
-			<div class="inner">
-				<h1>Gelena Barker</h1>
-				<p>Digital marketer turned front-end developer.</br>
-					London and worldwide.</p>
+	<section id="one" class="project-div">
 
-				<ul class="actions">
-					<li><a href="#one" class="button scrolly">View projects</a></li>
+		<section class="project-left">
+			<div class=project-image>
+				<a href="#" class="image"><img src="images/barcelona-app.png" alt="" data-position="center center" /></a>
+			</div>
+			<div class="project-content">
+				<h3>01</h3>
+				<h2>Explore Barcelona</h2>
+				<p>Mobile application that helps users to discover interesting places to visit in Barcelona based on their
+					location.
+				</p>
+				<ul>
+					<li><img src="images/react.png" alt="" height="20" width="20" />React Native</li>
+					<li><img src="images/fire.png" alt="" height="20" width="20" />Firebase</li>
+				</ul>
+
+
+
+			</div>
+		</section>
+
+		<section class="project-left">
+
+			<div class="project-content">
+				<h3>02</h3>
+				<h2>What's That?!</h2>
+				<p>Mobile friendly multi-player browser game. Inspired by Google's Quick, Draw! game, users have 15 secs to
+					get AI to guess what they are drawing.</p>
+				<ul>
+					<li><img src="images/react.png" alt="" height="20" width="20" />React</li>
+					<li><img src="images/styled-components.png" alt="" height="20" width="20" />Styled Components</li>
+					<li><img src="images/pop.png" alt="" height="20" width="20" />Pose</li>
+					<li><img src="images/redux.png" alt="" height="20" width="20" />Redux</li>
 				</ul>
 			</div>
-		</section>
-
-		<!-- One -->
-		<section id="one" class="wrapper style2 spotlights gel">
-			<section>
-				<a href="#" class="image"><img src="images/barcelona-app.png" alt="" data-position="center center" /></a>
-				<div class="content">
-					<div class="inner">
-						<h2>Explore Barcelona</h2>
-						<p>Mobile application that helps users to discover interesting places to visit in Barcelona based on their
-							location.
-						</p>
-						<p>React Native and Firebase</p>
-					</div>
-				</div>
-			</section>
-			<section>
-				<a href="#" class="image"><img src="images/whatsthat.jpg" alt="" data-position="top center" /></a>
-				<div class="content">
-					<div class="inner">
-						<h2>What's That?!</h2>
-						<p>Mobile friendly multi-player browser game. Inspired by Google's Quick, Draw! game, users have 15 secs to
-							get AI to guess what they are drawing.</p>
-						<p>React, Styled Components, Pose, Redux and Socket.IO</p>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<!-- Two -->
-		<section id="two" class="wrapper style3 fade-up">
-			<div class="inner">
-				<h2>Tech Stack</h2>
-				<div class="features">
-					<section>
-						<span class="icon major fa-desktop"></span>
-						<h3>Front-End</h3>
-						<p>React, React Native, JavaScript, Angular</p>
-					</section>
-					<section>
-						<span class="icon major fa-code"></span>
-						<h3>Back-End</h3>
-						<p>Node.js, Koa, Express, Firebase, MongoDB</p>
-					</section>
-				</div>
+			<div class=project-image>
+				<a href="#" class="image"><img src="images/whats-that.png" alt="" data-position="center center" /></a>
 			</div>
 		</section>
+	</section>
 
-		<!-- Three -->
-		<section id="three" class="wrapper style2 fade-up gel">
-			<div class="inner">
-				<h2>Get in touch</h2>
-				<p>You can contact me via LinkedIn or send a message below.</p>
-				<div class="split style1">
-					<section>
-						<ul class="contact">
-							<li>
-								<h3>Social</h3>
-								<ul class="icons">
-									<li><a href="https://github.com/GelenaB" class="fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								</ul>
-							</li>
-						</ul>
-					</section>
-					<section>
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field half">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
-								</div>
-								<div class="field half">
-									<label for="email">Email</label>
-									<input type="text" name="email" id="email" />
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="5"></textarea>
-								</div>
-							</div>
-							<ul class="actions">
-								<li><a href="" class="button white submit">Send Message</a></li>
+
+	<section id="two" class="contact wrapper style2 fade-up gel">
+		<div class="inner">
+			<h2>Get in touch</h2>
+			<p>You can contact me via LinkedIn</p>
+			<div class="split style1">
+				<section>
+					<ul class="contact">
+						<li>
+							<h3>Social</h3>
+							<ul class="icons">
+								<li><a href="https://github.com/GelenaB" class="fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							</ul>
-						</form>
-					</section>
-				</div>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="5"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><a href="" class="button white submit">Send Message</a></li>
+						</ul>
+					</form>
+				</section>
 			</div>
-		</section>
+		</div>
+	</section>
 
-	</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script>
+	$(document).ready(function () {
+		// Add smooth scrolling to all links
+		$("a").on('click', function (event) {
 
-	<!-- Footer -->
-	<!-- <footer id="footer" class="wrapper style1-alt">
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 800, function () {
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			} // End if
+		});
+	});
+
+</script> -->
+<script src="script.js"></script>
+<!-- Footer -->
+<!-- <footer id="footer" class="wrapper style1-alt">
 		<div class="inner">
 			<ul class="menu">
 				<li>&copy; Untitled. All rights reserved.</li>
@@ -142,14 +174,7 @@
 		</div>
 	</footer> -->
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+
 
 </body>
 
