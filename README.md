@@ -1,2 +1,1 @@
-Personal website
-Preview: https://gelenab.github.io/personal-website/
+Personal website gelena.co

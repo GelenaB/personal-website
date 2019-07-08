@@ -64,12 +64,12 @@ a {
   color: black;
   text-decoration: none;
 }
-
+/* 
 .active {
-text-decoration: none;
-background-color: #fff2ac;
+  text-decoration: none;
+  background-color: #fff2ac;
   background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
-}
+} */
 
 /* intro */
 
@@ -164,7 +164,7 @@ background-color: #fff2ac;
 
 .footer {
   display: flex;
-  padding: 30px 0 30px 0;
+  padding: 30px 30px 30px 0;
   justify-content: flex-end;
   color: grey;
   font-size: 14px;
@@ -181,10 +181,9 @@ background-color: #fff2ac;
     display: none;
   }
 
-
   .individual-project {
     flex-direction: column;
-    padding: 0;
+    padding: 20px 0 20px 0;
   }
 
   .project-content-div {
@@ -195,15 +194,5 @@ background-color: #fff2ac;
     width: 100%;
   }
 }
-/* @media only screen and (min-width: 1038px) {
-  html{
-    align-content: center;
-    align-items: center;
-  }
-  body {
-    background-color: lightgreen;
-    /* margin: 20px 150px 0 150px; */
-    width: 70%;
-  }
-} */
+
 
