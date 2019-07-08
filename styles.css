@@ -10,9 +10,9 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #63b9ad;
+  border-top: 1px solid grey;
   margin: 1em 0;
-  padding: 0;
+  padding: 0 0 20px 0;
   width: 50%;
   margin: 0 25% 0 25%;
 }
@@ -75,9 +75,9 @@ background-color: #fff2ac;
 
 #intro {
   width: 90%;
-  padding-top: 40px;
+  padding-top: 150px;
   font-size: 1.5rem;
-  height: 80vh;
+  height: 70vh;
 }
 
 /* projects */
@@ -126,6 +126,10 @@ background-color: #fff2ac;
   padding-bottom: 5px;
 }
 
+.project-content-div li img{
+  padding-right: 10px;
+}
+
 .project-links {
   display: flex;
   flex-direction: column;
@@ -133,30 +137,30 @@ background-color: #fff2ac;
 
 /* contact */
 
-
-
 .contact {
-  border: 1px solid grey;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   width: 90%;
+  margin-top: 100px;
 }
 
 .contact-icons{
   display: flex;
   align-content: space-between;
-  
   width: 100px;
 }
 
 .contact-icons a{
-  border: 2px solid red;
+  margin: 10px;
+}
+
+.contact-icon-text {
+  font-size: 36px;
 }
 
 /* footer */
-
 
 .footer {
   display: flex;
